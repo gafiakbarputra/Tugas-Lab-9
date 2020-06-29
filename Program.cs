@@ -105,6 +105,9 @@ namespace Tugas_Lab_8
                             noUrut++;
                         }
                         break;
+                    case 4:
+                        System.Environment.Exit(1);
+                        break;
                 }
                 Console.WriteLine("Tekan sembarang key untuk kembali ke menu:");
                 Console.ReadKey();
